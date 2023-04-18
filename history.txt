@@ -1,0 +1,7 @@
+   0 date > /var/nik.txt
+   1 cat /etc/group | awk '{print}' | tail -3 | sed 's/user/nik/'
+   2 cat /etc/group | awk '{print}' | tail -3 | sed 's/user/nik/' >nik.txt
+   3 vi echo
+   4 mv -i var/nik.txt root/newfolder/test/nik2.txt
+   5 >> /readme.txt >> nik.txt
+   6 history > history.txt
